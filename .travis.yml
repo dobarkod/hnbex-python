@@ -6,10 +6,7 @@ python:
   - "2.7"
   - "3.5"
 
-env:
-  - TOX_ENV=py27
-  - TOX_ENV=py35
-
 script:
-  - pip install tox
-  - tox -e $TOX_ENV
+  - pip install --upgrade setuptools
+  - python setup.py install
+  - python setup.py test
