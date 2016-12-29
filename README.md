@@ -1,4 +1,7 @@
 # hnbex-python
+
+[![Build Status](https://travis-ci.org/dobarkod/hnbex-python.svg?branch=master)](https://travis-ci.org/dobarkod/hnbex-python?branch=master)
+
 A Python package for accessing hnbex.eu service
 
 Installation
