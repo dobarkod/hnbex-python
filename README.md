@@ -6,12 +6,12 @@ A Python package for accessing hnbex.eu service
 
 Installation
 ---------------------
-Install the package from GitHub via pip:
+Install the latest release of the package via pip:
 ```
-pip install git+https://github.com/dobarkod/hnbex-python
+pip install hnbex
 ```
 
-Clone from GitHub and install:
+Or install directly from GitHub repository:
 ```
 git clone https://github.com/dobarkod/hnbex-python
 cd hnbex-python
@@ -52,3 +52,8 @@ How to run tests
 pip install tox
 tox
 ```
+
+License
+---------------------
+
+Copyright (C) 2016. Dobar Kod. Please see LICENSE file for details.
